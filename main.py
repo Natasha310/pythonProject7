@@ -1230,10 +1230,11 @@ list_of_columns()
 list_columns = ['titles:', 'years:', 'rating:', 'types:', 'gens:']
 columnss = [list_columns, [titles]]
 
-my_new = open('my_new.csv', 'w')
-csv_writer = csv.writer(my_new)
-csv_writer.writerows(columnss)
-my_new.close()
+#спроба роботи над колонками, але не вдалось
+#my_new = open('my_new.csv', 'w')
+#csv_writer = csv.writer(my_new)
+#csv_writer.writerows(columnss)
+#my_new.close()
 
 ganres = '{"results":[{"genre":"Adventure"},{"genre":"Family"},{"genre":"Fantasy"},{"genre":"Crime"},{"genre":"Drama"},{"genre":"Comedy"},{"genre":"Animation"},{"genre":"Sci-Fi"},{"genre":"Sport"},{"genre":"Action"},{"genre":"Thriller"},{"genre":"Mystery"},{"genre":"Western"},{"genre":"Romance"},{"genre":"Biography"},{"genre":"Horror"},{"genre":"War"},{"genre":"Musical"},{"genre":"History"},{"genre":"Music"},{"genre":"Documentary"},{"genre":"Short"},{"genre":"Talk-Show"},{"genre":"Game-Show"},{"genre":"Reality-TV"},{"genre":"News"},{"genre":"Adult"}]}'
 genres = (ganres.strip())
